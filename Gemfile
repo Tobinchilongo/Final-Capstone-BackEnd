@@ -40,7 +40,6 @@ gem 'jbuilder'
 gem 'tzinfo-data'
 
 gem 'react-rails'
-gem 'webpacker'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', require: false
