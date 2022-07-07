@@ -72,3 +72,12 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+gem 'activestorage'
+gem 'cancancan', '~> 1.9'
+gem 'devise', '~> 4.8', '>= 4.8.1'
+gem 'devise-jwt'
+gem 'dotenv-rails', groups: %i[development test]
+gem 'jwt'
+gem 'rack-cors'
+gem 'rubocop', '~> 1.30'
