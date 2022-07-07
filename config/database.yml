@@ -24,7 +24,7 @@ default: &default
 development:
   <<: *default
   database: Final_Capstone_BackEnd_development
-   username: postgres
+  username: postgres
   password: suwimubanga1
 
   # The specified database role being used to connect to postgres.
