@@ -17,9 +17,11 @@ class Api::V1::ReservationController < ApplicationController
     reservation = Reservation.new(reservation_params)
 
     if reservation.save
-      render json: {status: 'SUCCESS', message: 'Reservation was successfully created' data: reservation }, status: :ok
+      render json: { status: 'SUCCESS', message: 'Reservation was successfully created', data: reservation },
+             status: :ok
     else
-      render json: { status: 'ERROR', message: 'An error occurred while creating the reservationReservation Not created', data: reservation.errors }, status: :unprocessable_entity
+      render json: { status: 'ERROR', message: 'An error occurred while creating the reservationReservation Not created', data: reservation.errors },
+             status: :unprocessable_entity
     end
   end
 
@@ -30,13 +32,14 @@ class Api::V1::ReservationController < ApplicationController
     render json: { status: 'SUCCESS', message: 'Reservation deleted successfully', data: reservation }, status: :ok
   end
 
-   # PATCH/PUT /reservations/1
-   def update
+  # PATCH/PUT /reservations/1
+  def update
     reservation = Reservation.find(params[:id])
     if reservation.update(reservation_params)
       render json: { status: 'SUCCESS', message: 'Reservation updated successfully', data: reservation }, status: :ok
     else
-      render json: { status: 'ERROR', message: 'An error occurred while updating the reservation', data: reservation.errors }, status: :unprocessable_entity
+      render json: { status: 'ERROR', message: 'An error occurred while updating the reservation', data: reservation.errors },
+             status: :unprocessable_entity
     end
   end
 

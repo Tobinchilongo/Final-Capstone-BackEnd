@@ -13,7 +13,8 @@ class Api::V1::UsersController < ApplicationController
     if @user.save
       render json: { status: 'SUCCESS', message: 'User was successfully created', data: @user }, status: :ok
     else
-      render json: { status: 'ERROR', message: 'An error occurred while creating the user'}, status: :unprocessable_entity
+      render json: { status: 'ERROR', message: 'An error occurred while creating the user' },
+             status: :unprocessable_entity
     end
   end
 
