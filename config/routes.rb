@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
-  resources :reservations
-  resources :cars
-  resources :users
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  namespace :api do
+    namespace :v1, defaults: { format: 'json' } do
+      get 'users', to: 'users#index'
+      resources :cars, only: [:index, :create, :show, :destroy]
+      resources :reservation, only: [:index,:show, :create ,:new,:destroy, :update]
+      resources :users, only: [:index, :create]
+    end
+  end
 end
