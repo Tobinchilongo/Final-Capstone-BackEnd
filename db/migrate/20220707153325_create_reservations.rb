@@ -2,7 +2,7 @@ class CreateReservations < ActiveRecord::Migration[7.0]
   def change
     create_table :reservations do |t|
       t.date :date
-      t.integer :city
+      t.string :city
 
       t.timestamps
     end
