@@ -1,5 +1,5 @@
 class CarSerializer < ActiveModel::Serializer
-  attributes :id, :name, :model, :image_url, :reserved, :price, :user_id
-  belongs_to :user
-  has_many :reservations
+  include Rails.application.routes.url_helpers
+
+  attributes :id, :name, :model, :reserved, :price, :image_url
 end
