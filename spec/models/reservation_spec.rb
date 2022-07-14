@@ -2,9 +2,9 @@ require 'rails_helper'
 
 RSpec.describe Reservation, type: :model do
   subject do
-    @user = User.create(name: 'Tobin', email: 'tobin@mail.com', password: 'password',)
+    @user = User.create(name: 'Tobin', email: 'tobin@mail.com', password: 'password')
     @car = Car.new(name: 'Honda', model: 'Honda fit', price: 2000, image_url: 'url')
-    @reservation = Reservation.create(date: '2018-01-01', city: 'DR Congo',car_id: 3)
+    @reservation = Reservation.create(date: '2018-01-01', city: 'DR Congo', car_id: 3)
   end
   before { subject.save }
 
