@@ -45,7 +45,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'rspec-rails'
-  gem "rswag-specs"
+  gem 'rswag-specs'
 end
 
 group :development do
@@ -60,5 +60,5 @@ gem 'devise-jwt'
 gem 'dotenv-rails', groups: %i[development test]
 gem 'jwt'
 gem 'rack-cors'
+gem 'rswag'
 gem 'rubocop', '~> 1.30'
-gem 'rswag'  
