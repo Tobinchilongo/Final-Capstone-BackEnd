@@ -29,6 +29,10 @@ This is a car rental website that allows you to view  a variety of cars and book
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+## API link
+
+[Cars](https://agile-peak-14047.herokuapp.com/api/v1/cars)
+[Reservations](https://agile-peak-14047.herokuapp.com/api/v1/reservation)
 ## Live Demo
 
 [swagger-ui](https://agile-peak-14047.herokuapp.com/api-docs/index.html)
