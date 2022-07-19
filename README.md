@@ -3,7 +3,7 @@
 <div id="top"></div>
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/VuDej/backend-rent">
+  <a href="https://github.com/Tobinchilongo/Final-Capstone-BackEnd">
     <img src="./app/assets/images/car_booking_logo.jpg" alt="Logo" width="200" height="150">
   </a>
 
@@ -31,7 +31,7 @@ This is a car rental website that allows you to view  a variety of cars and book
 
 ## Live Demo
 
-[swagger-ui](http://localhost:3001/api-docs/index.html)
+[swagger-ui](https://agile-peak-14047.herokuapp.com/api-docs/index.html)
 
 ## Getting Started 🏁
 
