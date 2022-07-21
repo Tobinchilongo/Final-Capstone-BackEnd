@@ -18,6 +18,25 @@
 
 </div>
 
+## Kanban Board
+
+### Current state
+
+[Link to the Kanban Board](https://github.com/Tobinchilongo/Final-Capstone-BackEnd/projects/1)
+
+### Initial State
+
+![Initial State](https://user-images.githubusercontent.com/88584398/177570946-1b8e9c7c-32f9-4f52-bc6b-33ad975a2079.png)
+
+<br>
+<br>
+
+- This final group capstone was completed by a team of 3(Three) members <br>
+        1.       @jerryowusu <br>
+        2.       @cynthiainga <br>
+        3.       @Tobinchilongo <br>
+        
+ <br>
 
 <!-- About the project -->
 
