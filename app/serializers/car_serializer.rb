@@ -1,5 +1,5 @@
 class CarSerializer < ActiveModel::Serializer
   include Rails.application.routes.url_helpers
 
-  attributes :id, :name, :model, :reserved, :price, :image_url
+  attributes :id, :name, :model, :reserved, :price, :image_url, :description
 end
